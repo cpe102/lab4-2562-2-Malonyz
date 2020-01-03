@@ -6,7 +6,7 @@ using namespace std;
 float findDistance(float u,float a,float t){
   float s;
   s=(u*t)+(0.5*a*(pow(t,2)));
-  cout << s;
+  return s;
 } 
 
 int main(){
@@ -17,7 +17,7 @@ cout <<"Enter a ";
 cin >> a;
 cout <<"Enter t ";
 cin >> t;
-findDistance(u,a,t);
+cout << findDistance(u,a,t);
 
 
 
