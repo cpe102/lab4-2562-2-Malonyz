@@ -12,7 +12,7 @@ int main(){
     float x;
     cout << "Enter x =";
     cin >> x;
-    cout <<find(x);
+    cout << find(x);
 
 
     
